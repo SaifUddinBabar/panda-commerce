@@ -144,4 +144,8 @@ line-height: normal;
   .container{
     text-align: center;
   }
+  .search-parent input{
+    width: 80%;
+    margin: 0 auto;
+  }
 }
