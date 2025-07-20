@@ -1,0 +1,147 @@
+body{
+  font-family: poppins, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1280px;
+  margin: 0  auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+.search-parent{
+  position: relative;
+   
+}
+.search-parent input{
+  background-color: #F1F1F1;
+  border-radius: 66px;
+  border: none;
+  color: #CCCCCC;
+  /* font-family: Poppins; */
+  font-style: italic;
+  font-weight: 400;
+line-height: normal;
+
+
+padding: 12px 30px;
+width: 508px;
+}
+.search-parent i{
+  position:absolute;
+  top: 14px;
+  right: 20px;
+  color: #BABABA;
+  /* left: 0; */
+  /* bottom: 0; */
+
+}
+.nav-items {
+  display: flex;
+  gap: 24px; 
+  list-style: none;
+  
+}
+.nav-items  li{
+  
+
+}
+.nav-items  li a{
+  text-decoration: none;
+color: #707070;
+/* font-family: Poppins; */
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.banner{
+  fill: #FEEAE9;
+  background-color: #FEEAE9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 29px;
+    max-width: 1290px;
+  margin: 0  auto;
+  margin-top: 64px;
+  justify-items: center;
+  border-radius: 10px;
+}
+
+.banner img{
+
+  width: 403px;
+  height: 378px;
+}
+.banner  h2{
+  font-size: 3.4rem;
+  font-weight: bold;
+
+}
+.banner p{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #817d7d;
+
+}
+.banner h3{
+  font-size: 2.5rem;
+  color: #FF136F;
+  font-weight: 700;
+
+
+}
+
+.btn-primary{
+  font-size: 1rem;
+  background-color: #FF136F;
+  color: white;
+  border: none;
+  padding: 16px 28px;
+  border-radius: 6px;
+  margin-bottom: 68px;
+}
+
+
+@media screen and (max-width:600px) {
+
+  nav{
+    
+    flex-direction: column;
+    justify-items: center;
+    gap: 30px;
+
+  }
+  .nav-items {
+ justify-items: center;
+ align-items: center;
+ max-width: 350px;
+ margin: 0 auto;
+ margin-bottom: 20px;
+ 
+  }
+  .banner{
+    /* max-width: 400px; */
+ 
+    justify-content: center;
+    margin-right: 400px;
+    max-width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column-reverse;
+  }
+  .banner img{
+    width: 100%;
+  }
+  .container{
+    text-align: center;
+  }
+}
